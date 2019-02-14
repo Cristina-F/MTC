@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'net.ltgt.apt' version '0.10'
+}
+
+group 'mtk'
+version '1.0-SNAPSHOT'
+group 'mtk'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
+    compileOnly 'org.projectlombok:lombok:1.18.4'
+    apt 'org.projectlombok:lombok:1.18.4'
+}
